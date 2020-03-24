@@ -63,7 +63,7 @@ namespace PaymentService.Application.NotificationMediator.Commands
             //var content = new StringContent(jsonObject, Encoding.UTF8, "application/json");
             //await client.PostAsync("http://localhost:5010/notification", content);
 
-            var factory = new ConnectionFactory() { HostName = "localhost" };
+            var factory = new ConnectionFactory() { HostName = "some-rabbit" };
             using (var connection = factory.CreateConnection())
             using (var notification = connection.CreateModel())
             {
