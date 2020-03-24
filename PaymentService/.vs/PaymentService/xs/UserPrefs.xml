@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{EB113A61-6E5C-4DF5-BA6D-C7216F96DFA7}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Domain/Models.cs">
+    <Files>
+      <File FileName="Application/PaymentMediator/Commands/PostPaymentCommandHandler.cs" Line="69" Column="14" />
+      <File FileName="Domain/PaymentContext.cs" Line="1" Column="1" />
+      <File FileName="appsettings.json" Line="1" Column="1" />
+      <File FileName="Domain/Models.cs" Line="47" Column="6" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PaymentService" expanded="True">
+            <Node name="PaymentService" expanded="True">
+              <Node name="Application" expanded="True">
+                <Node name="PaymentMediator" expanded="True">
+                  <Node name="Commands" expanded="True" />
+                  <Node name="Request" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Domain" expanded="True">
+                <Node name="Models.cs" selected="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.PaymentService PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
