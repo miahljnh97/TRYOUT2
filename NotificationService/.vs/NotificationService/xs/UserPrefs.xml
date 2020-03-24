@@ -1,29 +1,25 @@
 ﻿<Properties StartupConfiguration="{8619A790-80F8-4669-9B0C-0E5D2A6CEC66}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Listener.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Startup.cs" Line="60" Column="1" />
+      <File FileName="Startup.cs" Line="64" Column="1" />
       <File FileName="appsettings.json" Line="14" Column="1" />
-      <File FileName="Domain/NotifContext.cs" Line="23" Column="1" />
+      <File FileName="Domain/NotifContext.cs" Line="25" Column="43" />
       <File FileName="Domain/BaseDTO.cs" Line="18" Column="6" />
       <File FileName="Application/NotificationMediator/Request/NotifDTO.cs" Line="1" Column="1" />
-      <File FileName="Application/NotificationMediator/Commands/PostNotifCommandHandler.cs" Line="66" Column="82" />
+      <File FileName="Application/NotificationMediator/Commands/PostNotifCommandHandler.cs" Line="59" Column="31" />
       <File FileName="Application/NotificationMediator/Commands/PostNotifCommand.cs" Line="1" Column="1" />
-      <File FileName="Listener.cs" Line="1" Column="1" />
-      <File FileName="Domain/Models.cs" Line="22" Column="65" NotebookId="1" />
+      <File FileName="Listener.cs" Line="23" Column="35" />
+      <File FileName="Dockerfile" Line="13" Column="1" />
+      <File FileName="Program.cs" Line="17" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="NotificationService" expanded="True">
             <Node name="NotificationService" expanded="True">
-              <Node name="Application" expanded="True">
-                <Node name="NotificationMediator" expanded="True">
-                  <Node name="Commands" expanded="True" />
-                  <Node name="Request" expanded="True" />
-                </Node>
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Domain" expanded="True" />
-              <Node name="Listener.cs" selected="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>

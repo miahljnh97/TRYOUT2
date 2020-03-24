@@ -20,7 +20,7 @@ namespace NotificationService
 
                 var queueName = channel.QueueDeclare(
                     queue: "userQueue",
-                    durable: false,
+                    durable: true,
                     exclusive: false,
                     autoDelete: false,
                     arguments: null);
@@ -34,7 +34,7 @@ namespace NotificationService
                     var message = Encoding.UTF8.GetString(body);
                     var content = new StringContent(message, Encoding.UTF8, "application/json");
                     Console.WriteLine($"Processing data from queue");
-                    await client.PostAsync("http://localhost:5007/notification", content);
+                    await client.PostAsync("http://localhost:5010/notification", content);
 
                 };
 

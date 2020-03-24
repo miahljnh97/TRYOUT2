@@ -110,9 +110,12 @@ namespace PaymentService.Migrations
                     b.Property<DateTime>("Update_at")
                         .HasColumnType("timestamp without time zone");
 
+                    b.Property<int?>("ordersId")
+                        .HasColumnType("integer");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("Order_id");
+                    b.HasIndex("ordersId");
 
                     b.ToTable("payment");
                 });
@@ -196,9 +199,7 @@ namespace PaymentService.Migrations
                 {
                     b.HasOne("PaymentService.Domain.Orders", "orders")
                         .WithMany()
-                        .HasForeignKey("Order_id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ordersId");
                 });
 #pragma warning restore 612, 618
         }

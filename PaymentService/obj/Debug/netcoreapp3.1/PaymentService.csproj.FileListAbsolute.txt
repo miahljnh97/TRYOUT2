@@ -1,7 +1,3 @@
-/Users/user/Projects/PaymentProcess/PaymentService/obj/Debug/netcoreapp3.1/PaymentService.csprojAssemblyReference.cache
-/Users/user/Projects/PaymentProcess/PaymentService/obj/Debug/netcoreapp3.1/PaymentService.MvcApplicationPartsAssemblyInfo.cache
-/Users/user/Projects/PaymentProcess/PaymentService/obj/Debug/netcoreapp3.1/PaymentService.AssemblyInfoInputs.cache
-/Users/user/Projects/PaymentProcess/PaymentService/obj/Debug/netcoreapp3.1/PaymentService.AssemblyInfo.cs
 /Users/user/Projects/PaymentProcess/PaymentService/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /Users/user/Projects/PaymentProcess/PaymentService/bin/Debug/netcoreapp3.1/appsettings.json
 /Users/user/Projects/PaymentProcess/PaymentService/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
@@ -22,6 +18,7 @@
 /Users/user/Projects/PaymentProcess/PaymentService/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
 /Users/user/Projects/PaymentProcess/PaymentService/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
 /Users/user/Projects/PaymentProcess/PaymentService/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/user/Projects/PaymentProcess/PaymentService/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
 /Users/user/Projects/PaymentProcess/PaymentService/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
 /Users/user/Projects/PaymentProcess/PaymentService/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
 /Users/user/Projects/PaymentProcess/PaymentService/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
@@ -51,10 +48,13 @@
 /Users/user/Projects/PaymentProcess/PaymentService/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/sni.dll
 /Users/user/Projects/PaymentProcess/PaymentService/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netstandard2.0/System.Data.SqlClient.dll
 /Users/user/Projects/PaymentProcess/PaymentService/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Data.SqlClient.dll
+/Users/user/Projects/PaymentProcess/PaymentService/obj/Debug/netcoreapp3.1/PaymentService.csprojAssemblyReference.cache
+/Users/user/Projects/PaymentProcess/PaymentService/obj/Debug/netcoreapp3.1/PaymentService.MvcApplicationPartsAssemblyInfo.cache
+/Users/user/Projects/PaymentProcess/PaymentService/obj/Debug/netcoreapp3.1/PaymentService.AssemblyInfoInputs.cache
+/Users/user/Projects/PaymentProcess/PaymentService/obj/Debug/netcoreapp3.1/PaymentService.AssemblyInfo.cs
 /Users/user/Projects/PaymentProcess/PaymentService/obj/Debug/netcoreapp3.1/PaymentService.RazorTargetAssemblyInfo.cache
 /Users/user/Projects/PaymentProcess/PaymentService/obj/Debug/netcoreapp3.1/PaymentService.csproj.CopyComplete
 /Users/user/Projects/PaymentProcess/PaymentService/obj/Debug/netcoreapp3.1/staticwebassets/PaymentService.StaticWebAssets.Manifest.cache
 /Users/user/Projects/PaymentProcess/PaymentService/obj/Debug/netcoreapp3.1/staticwebassets/PaymentService.StaticWebAssets.xml
 /Users/user/Projects/PaymentProcess/PaymentService/obj/Debug/netcoreapp3.1/PaymentService.dll
 /Users/user/Projects/PaymentProcess/PaymentService/obj/Debug/netcoreapp3.1/PaymentService.pdb
-/Users/user/Projects/PaymentProcess/PaymentService/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll

@@ -106,17 +106,18 @@ namespace PaymentService.Migrations
                     Transaction_time = table.Column<string>(nullable: true),
                     Transaction_status = table.Column<string>(nullable: true),
                     Created_at = table.Column<DateTime>(nullable: false),
-                    Update_at = table.Column<DateTime>(nullable: false)
+                    Update_at = table.Column<DateTime>(nullable: false),
+                    ordersId = table.Column<int>(nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_payment", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_payment_orders_Order_id",
-                        column: x => x.Order_id,
+                        name: "FK_payment_orders_ordersId",
+                        column: x => x.ordersId,
                         principalTable: "orders",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateIndex(
@@ -135,9 +136,9 @@ namespace PaymentService.Migrations
                 column: "User_id");
 
             migrationBuilder.CreateIndex(
-                name: "IX_payment_Order_id",
+                name: "IX_payment_ordersId",
                 table: "payment",
-                column: "Order_id");
+                column: "ordersId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
